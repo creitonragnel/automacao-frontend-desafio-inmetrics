@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 5,
+        "line": 4,
         "name": "01 Cadastrar usuario com sucesso",
         "description": "",
         "id": "cadastrar-usuario;01-cadastrar-usuario-com-sucesso",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 12166184500,
+              "duration": 61633182300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Eu estou na home do sistema",
             "match": {
               "location": "HomeSteps.acessar_home_page()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 1614218100,
+              "duration": 3704648400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Eu clicar no link cadastre-se",
             "match": {
               "location": "UsuarioSteps.cadastraSe()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 344886000,
+              "duration": 316640700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Eu informo o usuario \"desafio_Inmetrics_\"",
             "match": {
               "arguments": [
@@ -54,10 +54,10 @@
           },
           {
             "result": {
-              "duration": 198973400,
+              "duration": 174608400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "Eu informo a senha \"12345\"",
             "match": {
               "arguments": [
@@ -72,10 +72,10 @@
           },
           {
             "result": {
-              "duration": 173585200,
+              "duration": 163311700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "Eu informo a confirmacao da senha \"12345\"",
             "match": {
               "arguments": [
@@ -90,10 +90,10 @@
           },
           {
             "result": {
-              "duration": 3211894400,
+              "duration": 2646759700,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "Eu clico no botao cadastrar",
             "match": {
               "location": "UsuarioSteps.click_botao_cadastrar()"
@@ -102,10 +102,10 @@
           },
           {
             "result": {
-              "duration": 9785200,
+              "duration": 8133900,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "Eu serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
             "match": {
               "arguments": [
@@ -118,20 +118,10 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@smoke"
-          },
-          {
-            "line": 4,
-            "name": "@regressivo"
-          }
         ]
       },
       {
-        "line": 15,
+        "line": 13,
         "name": "02 Cadastrar usuario sem sucesso - Informar usuario ja cadastrado",
         "description": "",
         "id": "cadastrar-usuario;02-cadastrar-usuario-sem-sucesso---informar-usuario-ja-cadastrado",
@@ -140,10 +130,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1789062200,
+              "duration": 1489949000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 14,
             "name": "Eu estou na home do sistema",
             "match": {
               "location": "HomeSteps.acessar_home_page()"
@@ -152,10 +142,10 @@
           },
           {
             "result": {
-              "duration": 1462973000,
+              "duration": 2570949600,
               "status": "passed"
             },
-            "line": 17,
+            "line": 15,
             "name": "Eu clicar no link cadastre-se",
             "match": {
               "location": "UsuarioSteps.cadastraSe()"
@@ -164,10 +154,10 @@
           },
           {
             "result": {
-              "duration": 273196200,
+              "duration": 268192200,
               "status": "passed"
             },
-            "line": 18,
+            "line": 16,
             "name": "Eu informo o usuario \"desafio_Inmetrics_\"",
             "match": {
               "arguments": [
@@ -182,10 +172,10 @@
           },
           {
             "result": {
-              "duration": 164411200,
+              "duration": 164245400,
               "status": "passed"
             },
-            "line": 19,
+            "line": 17,
             "name": "Eu informo a senha \"12345\"",
             "match": {
               "arguments": [
@@ -200,10 +190,10 @@
           },
           {
             "result": {
-              "duration": 166585400,
+              "duration": 158948600,
               "status": "passed"
             },
-            "line": 20,
+            "line": 18,
             "name": "Eu informo a confirmacao da senha \"12345\"",
             "match": {
               "arguments": [
@@ -218,10 +208,10 @@
           },
           {
             "result": {
-              "duration": 1685460400,
+              "duration": 2225156600,
               "status": "passed"
             },
-            "line": 21,
+            "line": 19,
             "name": "Eu clico no botao cadastrar",
             "match": {
               "location": "UsuarioSteps.click_botao_cadastrar()"
@@ -230,10 +220,10 @@
           },
           {
             "result": {
-              "duration": 33081400,
+              "duration": 31378100,
               "status": "passed"
             },
-            "line": 22,
+            "line": 20,
             "name": "Deverá aparecer a informação \"Usuário já cadastrado\"",
             "match": {
               "arguments": [
@@ -245,16 +235,6 @@
               "location": "UsuarioSteps.usuario_ja_cadastrado(String)"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 14,
-            "name": "@smoke"
-          },
-          {
-            "line": 14,
-            "name": "@regressivo"
           }
         ]
       }
@@ -269,7 +249,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 5,
+        "line": 4,
         "name": "01 Efetuar login e logout com sucesso",
         "description": "",
         "id": "login-usuario;01-efetuar-login-e-logout-com-sucesso",
@@ -278,10 +258,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1679304500,
+              "duration": 2676928800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "Eu estou na home do sistema",
             "match": {
               "location": "HomeSteps.acessar_home_page()"
@@ -290,10 +270,10 @@
           },
           {
             "result": {
-              "duration": 236867600,
+              "duration": 245995400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "Eu informo o meu usuario \"creiton.ragnel@gmail.com\"",
             "match": {
               "arguments": [
@@ -308,10 +288,10 @@
           },
           {
             "result": {
-              "duration": 171082100,
+              "duration": 157168200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Eu informo a minha senha \"123\"",
             "match": {
               "arguments": [
@@ -326,10 +306,10 @@
           },
           {
             "result": {
-              "duration": 5528504200,
+              "duration": 35904056200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "Eu clico no botao entre",
             "match": {
               "location": "LoginSteps.botao_entrar()"
@@ -338,10 +318,10 @@
           },
           {
             "result": {
-              "duration": 6479100,
+              "duration": 7510000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "Eu serei direcionado para o formulário de empregados \"http://www.inmrobo.tk/empregados/\"",
             "match": {
               "arguments": [
@@ -356,10 +336,10 @@
           },
           {
             "result": {
-              "duration": 2033782800,
+              "duration": 3209599200,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
             "match": {
               "arguments": [
@@ -372,32 +352,22 @@
             },
             "keyword": "And "
           }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@smoke"
-          },
-          {
-            "line": 4,
-            "name": "@regressivo"
-          }
         ]
       },
       {
-        "line": 22,
-        "name": "03 Efetuar login senha inválida",
+        "line": 12,
+        "name": "02 Efetuar login usuário inválido",
         "description": "",
-        "id": "login-usuario;03-efetuar-login-senha-inválida",
+        "id": "login-usuario;02-efetuar-login-usuário-inválido",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1425539900,
+              "duration": 2509090100,
               "status": "passed"
             },
-            "line": 23,
+            "line": 13,
             "name": "Eu estou na home do sistema",
             "match": {
               "location": "HomeSteps.acessar_home_page()"
@@ -406,10 +376,98 @@
           },
           {
             "result": {
-              "duration": 229667000,
+              "duration": 208141900,
               "status": "passed"
             },
-            "line": 24,
+            "line": 14,
+            "name": "Eu informo o meu usuario \"usuario_invalido\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usuario_invalido",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.input_usuario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191399600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Eu informo a minha senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.input_senha(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2718079800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Eu clico no botao entre",
+            "match": {
+              "location": "LoginSteps.botao_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29300400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "O alerta \"ERRO!\" será exibido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ERRO!",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginSteps.alerta(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "03 Efetuar login senha inválida",
+        "description": "",
+        "id": "login-usuario;03-efetuar-login-senha-inválida",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1876027300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Eu estou na home do sistema",
+            "match": {
+              "location": "HomeSteps.acessar_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242045000,
+              "status": "passed"
+            },
+            "line": 21,
             "name": "Eu informo o meu usuario \"creiton.ragnel@gmail.com\"",
             "match": {
               "arguments": [
@@ -424,10 +482,10 @@
           },
           {
             "result": {
-              "duration": 165079000,
+              "duration": 178492300,
               "status": "passed"
             },
-            "line": 25,
+            "line": 22,
             "name": "Eu informo a minha senha \"1234567\"",
             "match": {
               "arguments": [
@@ -442,10 +500,10 @@
           },
           {
             "result": {
-              "duration": 1703265200,
+              "duration": 3161313900,
               "status": "passed"
             },
-            "line": 26,
+            "line": 23,
             "name": "Eu clico no botao entre",
             "match": {
               "location": "LoginSteps.botao_entrar()"
@@ -454,10 +512,10 @@
           },
           {
             "result": {
-              "duration": 25102500,
+              "duration": 25730600,
               "status": "passed"
             },
-            "line": 27,
+            "line": 24,
             "name": "O alerta \"ERRO!\" será exibido",
             "match": {
               "arguments": [
@@ -470,16 +528,6 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "line": 21,
-            "name": "@smoke"
-          },
-          {
-            "line": 21,
-            "name": "@regressivo"
-          }
         ]
       }
     ],
@@ -488,5 +536,507 @@
     "id": "login-usuario",
     "keyword": "Feature",
     "uri": "02_login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "01 Cadastrar funcionário",
+        "description": "",
+        "id": "manter-funcionario;01-cadastrar-funcionário",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42389263900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.inmrobo.tk/empregados/",
+                  "offset": 38
+                },
+                {
+                  "val": "creiton.ragnel@gmail.com",
+                  "offset": 104
+                },
+                {
+                  "val": "123",
+                  "offset": 139
+                }
+              ],
+              "location": "FuncionarioSteps.logar_sistema(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2656424400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Eu clico no menu novo funcionário",
+            "match": {
+              "location": "FuncionarioSteps.novo_funcionario()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225037400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Eu informo o nome do funcionário \"Desafio Inmetrics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics",
+                  "offset": 34
+                }
+              ],
+              "location": "FuncionarioSteps.informar_nome(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208346500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Informo o cargo \"Analista\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Analista",
+                  "offset": 17
+                }
+              ],
+              "location": "FuncionarioSteps.informar_cargo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220880600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Informo o CPF \"629.909.940-25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "629.909.940-25",
+                  "offset": 15
+                }
+              ],
+              "location": "FuncionarioSteps.informar_cpf(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243157200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Informo o salário \"3500,00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3500,00",
+                  "offset": 19
+                }
+              ],
+              "location": "FuncionarioSteps.informar_salario(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2091828900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Informo o sexo \"Masculino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Masculino",
+                  "offset": 16
+                }
+              ],
+              "location": "FuncionarioSteps.informar_sexo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52260600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Informo o tipo de contratação \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "clt",
+                  "offset": 31
+                }
+              ],
+              "location": "FuncionarioSteps.informar_tipo_contratacao(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181041200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Informo a data de admissão \"01/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01/12/2020",
+                  "offset": 28
+                }
+              ],
+              "location": "FuncionarioSteps.informar_data_admissao(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26446594300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Eu clico no botão enviar",
+            "match": {
+              "location": "FuncionarioSteps.clicar_enviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28739800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "A mensagem de funcionário cadastrado com sucesso será exibida \"SUCESSO!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCESSO!",
+                  "offset": 63
+                }
+              ],
+              "location": "FuncionarioSteps.mensagem_cadastro_sucesso(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2883219300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.inmrobo.tk/accounts/login/",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginSteps.logout(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "02 Alterar funcionário",
+        "description": "",
+        "id": "manter-funcionario;02-alterar-funcionário",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7449499300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.inmrobo.tk/empregados/",
+                  "offset": 38
+                },
+                {
+                  "val": "creiton.ragnel@gmail.com",
+                  "offset": 104
+                },
+                {
+                  "val": "123",
+                  "offset": 139
+                }
+              ],
+              "location": "FuncionarioSteps.logar_sistema(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391105500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Eu informo o nome do funcionário \"Desafio Inmetrics\" que desejo manipular no campo pesquisar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics",
+                  "offset": 34
+                }
+              ],
+              "location": "FuncionarioSteps.manter_funcionario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1573730200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Eu clico no botão editar",
+            "match": {
+              "location": "FuncionarioSteps.clicar_editar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261173800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Eu informo o nome do funcionário \"Desafio Inmetrics alterado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics alterado",
+                  "offset": 34
+                }
+              ],
+              "location": "FuncionarioSteps.informar_nome(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083569800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Informo o sexo \"Indiferente\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Indiferente",
+                  "offset": 16
+                }
+              ],
+              "location": "FuncionarioSteps.informar_sexo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51788900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Informo o tipo de contratação \"pj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pj",
+                  "offset": 31
+                }
+              ],
+              "location": "FuncionarioSteps.informar_tipo_contratacao(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4268532900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Eu clico no botão enviar",
+            "match": {
+              "location": "FuncionarioSteps.clicar_enviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25727500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "A mensagem de funcionário cadastrado com sucesso será exibida \"SUCESSO!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCESSO!",
+                  "offset": 63
+                }
+              ],
+              "location": "FuncionarioSteps.mensagem_cadastro_sucesso(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1241447600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.inmrobo.tk/accounts/login/",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginSteps.logout(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "03 Excluir funcionário",
+        "description": "",
+        "id": "manter-funcionario;03-excluir-funcionário",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6980043600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.inmrobo.tk/empregados/",
+                  "offset": 38
+                },
+                {
+                  "val": "creiton.ragnel@gmail.com",
+                  "offset": 104
+                },
+                {
+                  "val": "123",
+                  "offset": 139
+                }
+              ],
+              "location": "FuncionarioSteps.logar_sistema(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 481441800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Eu informo o nome do funcionário \"Desafio Inmetrics alterado\" que desejo manipular no campo pesquisar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics alterado",
+                  "offset": 34
+                }
+              ],
+              "location": "FuncionarioSteps.manter_funcionario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6586983500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Eu clico no botão excluir",
+            "match": {
+              "location": "FuncionarioSteps.clicar_excluir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30237100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "A mensagem de funcionário cadastrado com sucesso será exibida \"SUCESSO!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCESSO!",
+                  "offset": 63
+                }
+              ],
+              "location": "FuncionarioSteps.mensagem_cadastro_sucesso(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2640296500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.inmrobo.tk/accounts/login/",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginSteps.logout(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Manter Funcionario",
+    "description": "Eu como administrador do sistema quero incluir, alterar e excluir funcionarios",
+    "id": "manter-funcionario",
+    "keyword": "Feature",
+    "uri": "03_funcionario.feature"
   }
 ]
