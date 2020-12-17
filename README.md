@@ -15,3 +15,5 @@ Importar o projeto como Maven Project.
 As dependências do projeto estão configuradas no arquivo pom.xml
 
 Executar o projeto com JUnit Test
+
+Relatório da execução disponível em: target/cucumber-reports/index.html
