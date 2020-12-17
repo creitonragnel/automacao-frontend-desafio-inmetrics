@@ -21,7 +21,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features",
 plugin = {"json: target/cucumber.json"},
-tags = {"@smoke"},
+tags = {"@regressivo"},
 glue = {""}, monochrome = true, dryRun = false)
 public class RunCucumberTest {
 	@Rule
