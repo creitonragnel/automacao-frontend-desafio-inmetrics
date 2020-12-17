@@ -22,7 +22,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/resources/features",
 glue = {""}, 
 plugin = {"json: target/cucumber.json"},
-monochrome = true, dryRun = false, tags = {"@smoke"})
+monochrome = true, dryRun = false)
 public class RunCucumberTest {
 	@Rule
 	public static TestName testName = new TestName();
