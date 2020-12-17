@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51988418000,
+              "duration": 64454226400,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1750557900,
+              "duration": 4646075000,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 322121400,
+              "duration": 364813200,
               "status": "passed"
             },
             "line": 7,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 175123600,
+              "duration": 203060800,
               "status": "passed"
             },
             "line": 8,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 160054500,
+              "duration": 155907700,
               "status": "passed"
             },
             "line": 9,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 1313602100,
+              "duration": 5117515400,
               "status": "passed"
             },
             "line": 10,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 10429100,
+              "duration": 8584200,
               "status": "passed"
             },
             "line": 11,
@@ -130,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1026874700,
+              "duration": 2553910800,
               "status": "passed"
             },
             "line": 14,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 1309849500,
+              "duration": 4104114700,
               "status": "passed"
             },
             "line": 15,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 278688100,
+              "duration": 280719100,
               "status": "passed"
             },
             "line": 16,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 167159500,
+              "duration": 199017400,
               "status": "passed"
             },
             "line": 17,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 183605800,
+              "duration": 224644700,
               "status": "passed"
             },
             "line": 18,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 2500775900,
+              "duration": 4908453900,
               "status": "passed"
             },
             "line": 19,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 32179000,
+              "duration": 27614100,
               "status": "passed"
             },
             "line": 20,
@@ -258,7 +258,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2547155000,
+              "duration": 4818787000,
               "status": "passed"
             },
             "line": 5,
@@ -270,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 254366600,
+              "duration": 246290500,
               "status": "passed"
             },
             "line": 6,
@@ -288,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 170897500,
+              "duration": 175995600,
               "status": "passed"
             },
             "line": 7,
@@ -306,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 14991648700,
+              "duration": 76735305300,
               "status": "passed"
             },
             "line": 8,
@@ -318,9 +318,8 @@
           },
           {
             "result": {
-              "duration": 4039037200,
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LP1802\u0027, ip: \u002710.10.20.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Creiton Monteiro\\A...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 38d9d160f758a9fe78f042fbab139883\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)\r\n\tat br.com.inmetrics.teste.core.BasePage.getCurrentUrl(BasePage.java:272)\r\n\tat br.com.inmetrics.teste.pages.LoginPage.loginSucesso(LoginPage.java:19)\r\n\tat br.com.inmetrics.teste.support.LoginSteps.lista_empregados(LoginSteps.java:30)\r\n\tat ✽.Then Eu serei direcionado para o formulário de empregados \"http://www.inmrobo.tk/empregados/\"(02_login.feature:9)\r\n",
-              "status": "failed"
+              "duration": 6191400,
+              "status": "passed"
             },
             "line": 9,
             "name": "Eu serei direcionado para o formulário de empregados \"http://www.inmrobo.tk/empregados/\"",
@@ -337,7 +336,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2768573600,
+              "status": "passed"
             },
             "line": 10,
             "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
@@ -364,9 +364,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4016455900,
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LP1802\u0027, ip: \u002710.10.20.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Creiton Monteiro\\A...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 38d9d160f758a9fe78f042fbab139883\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat br.com.inmetrics.teste.pages.HomePage.acessarTelaInicial(HomePage.java:8)\r\n\tat br.com.inmetrics.teste.support.HomeSteps.acessar_home_page(HomeSteps.java:12)\r\n\tat ✽.Given Eu estou na home do sistema(02_login.feature:13)\r\n",
-              "status": "failed"
+              "duration": 2819055400,
+              "status": "passed"
             },
             "line": 13,
             "name": "Eu estou na home do sistema",
@@ -377,7 +376,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 220994600,
+              "status": "passed"
             },
             "line": 14,
             "name": "Eu informo o meu usuario \"usuario_invalido\"",
@@ -394,7 +394,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 155765800,
+              "status": "passed"
             },
             "line": 15,
             "name": "Eu informo a minha senha \"123\"",
@@ -411,7 +412,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2157024000,
+              "status": "passed"
             },
             "line": 16,
             "name": "Eu clico no botao entre",
@@ -422,7 +424,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 28790800,
+              "status": "passed"
             },
             "line": 17,
             "name": "O alerta \"ERRO!\" será exibido",
@@ -449,9 +452,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4013623600,
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LP1802\u0027, ip: \u002710.10.20.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Creiton Monteiro\\A...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 38d9d160f758a9fe78f042fbab139883\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat br.com.inmetrics.teste.pages.HomePage.acessarTelaInicial(HomePage.java:8)\r\n\tat br.com.inmetrics.teste.support.HomeSteps.acessar_home_page(HomeSteps.java:12)\r\n\tat ✽.Given Eu estou na home do sistema(02_login.feature:20)\r\n",
-              "status": "failed"
+              "duration": 2037839700,
+              "status": "passed"
             },
             "line": 20,
             "name": "Eu estou na home do sistema",
@@ -462,7 +464,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 213010500,
+              "status": "passed"
             },
             "line": 21,
             "name": "Eu informo o meu usuario \"creiton.ragnel@gmail.com\"",
@@ -479,7 +482,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 166142000,
+              "status": "passed"
             },
             "line": 22,
             "name": "Eu informo a minha senha \"1234567\"",
@@ -496,7 +500,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4987269200,
+              "status": "passed"
             },
             "line": 23,
             "name": "Eu clico no botao entre",
@@ -507,7 +512,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 24667000,
+              "status": "passed"
             },
             "line": 24,
             "name": "O alerta \"ERRO!\" será exibido",
@@ -544,9 +550,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4021423600,
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LP1802\u0027, ip: \u002710.10.20.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Creiton Monteiro\\A...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 38d9d160f758a9fe78f042fbab139883\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat br.com.inmetrics.teste.pages.HomePage.acessarTelaInicial(HomePage.java:8)\r\n\tat br.com.inmetrics.teste.support.FuncionarioSteps.logar_sistema(FuncionarioSteps.java:20)\r\n\tat ✽.Given Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"(03_funcionario.feature:5)\r\n",
-              "status": "failed"
+              "duration": 85341235800,
+              "status": "passed"
             },
             "line": 5,
             "name": "Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"",
@@ -571,7 +576,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9338413900,
+              "status": "passed"
             },
             "line": 6,
             "name": "Eu clico no menu novo funcionário",
@@ -582,7 +588,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 228642500,
+              "status": "passed"
             },
             "line": 7,
             "name": "Eu informo o nome do funcionário \"Desafio Inmetrics\"",
@@ -599,7 +606,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 162796400,
+              "status": "passed"
             },
             "line": 8,
             "name": "Informo o cargo \"Analista\"",
@@ -616,7 +624,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 199671800,
+              "status": "passed"
             },
             "line": 9,
             "name": "Informo o CPF \"629.909.940-25\"",
@@ -633,7 +642,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 194212200,
+              "status": "passed"
             },
             "line": 10,
             "name": "Informo o salário \"3500,00\"",
@@ -650,7 +660,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2094424400,
+              "status": "passed"
             },
             "line": 11,
             "name": "Informo o sexo \"Masculino\"",
@@ -667,7 +678,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 54244000,
+              "status": "passed"
             },
             "line": 12,
             "name": "Informo o tipo de contratação \"clt\"",
@@ -684,7 +696,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 183719400,
+              "status": "passed"
             },
             "line": 13,
             "name": "Informo a data de admissão \"01/12/2020\"",
@@ -701,7 +714,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72535159100,
+              "status": "passed"
             },
             "line": 14,
             "name": "Eu clico no botão enviar",
@@ -712,7 +726,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 26094200,
+              "status": "passed"
             },
             "line": 15,
             "name": "A mensagem de funcionário cadastrado com sucesso será exibida \"SUCESSO!\"",
@@ -729,7 +744,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11396562200,
+              "status": "passed"
             },
             "line": 16,
             "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
@@ -756,9 +772,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4015582200,
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LP1802\u0027, ip: \u002710.10.20.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Creiton Monteiro\\A...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 38d9d160f758a9fe78f042fbab139883\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat br.com.inmetrics.teste.pages.HomePage.acessarTelaInicial(HomePage.java:8)\r\n\tat br.com.inmetrics.teste.support.FuncionarioSteps.logar_sistema(FuncionarioSteps.java:20)\r\n\tat ✽.Given Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"(03_funcionario.feature:19)\r\n",
-              "status": "failed"
+              "duration": 115597351800,
+              "status": "passed"
             },
             "line": 19,
             "name": "Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"",
@@ -783,7 +798,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 380543500,
+              "status": "passed"
             },
             "line": 20,
             "name": "Eu informo o nome do funcionário \"Desafio Inmetrics\" que desejo manipular no campo pesquisar",
@@ -800,7 +816,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 25020565500,
+              "status": "passed"
             },
             "line": 21,
             "name": "Eu clico no botão editar",
@@ -811,7 +828,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 250979400,
+              "status": "passed"
             },
             "line": 22,
             "name": "Eu informo o nome do funcionário \"Desafio Inmetrics alterado\"",
@@ -828,7 +846,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2074843500,
+              "status": "passed"
             },
             "line": 23,
             "name": "Informo o sexo \"Indiferente\"",
@@ -845,7 +864,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 51529400,
+              "status": "passed"
             },
             "line": 24,
             "name": "Informo o tipo de contratação \"pj\"",
@@ -862,7 +882,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 91409663700,
+              "status": "passed"
             },
             "line": 25,
             "name": "Eu clico no botão enviar",
@@ -873,7 +894,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 29484100,
+              "status": "passed"
             },
             "line": 26,
             "name": "A mensagem de funcionário cadastrado com sucesso será exibida \"SUCESSO!\"",
@@ -890,7 +912,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 12522809200,
+              "status": "passed"
             },
             "line": 27,
             "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
@@ -917,9 +940,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4013936800,
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LP1802\u0027, ip: \u002710.10.20.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Creiton Monteiro\\A...}, goog:chromeOptions: {debuggerAddress: localhost:58826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 38d9d160f758a9fe78f042fbab139883\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat br.com.inmetrics.teste.pages.HomePage.acessarTelaInicial(HomePage.java:8)\r\n\tat br.com.inmetrics.teste.support.FuncionarioSteps.logar_sistema(FuncionarioSteps.java:20)\r\n\tat ✽.Given Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"(03_funcionario.feature:30)\r\n",
-              "status": "failed"
+              "duration": 67605875400,
+              "status": "passed"
             },
             "line": 30,
             "name": "Eu estou logado no sistema na pagina \"http://www.inmrobo.tk/empregados/\" de empregados com meu usuário \"creiton.ragnel@gmail.com\" e senha \"123\"",
@@ -944,7 +966,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 432455900,
+              "status": "passed"
             },
             "line": 31,
             "name": "Eu informo o nome do funcionário \"Desafio Inmetrics alterado\" que desejo manipular no campo pesquisar",
@@ -961,7 +984,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 63542372100,
+              "status": "passed"
             },
             "line": 32,
             "name": "Eu clico no botão excluir",
@@ -972,7 +996,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 27813200,
+              "status": "passed"
             },
             "line": 33,
             "name": "A mensagem de funcionário cadastrado com sucesso será exibida \"SUCESSO!\"",
@@ -989,7 +1014,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4186482600,
+              "status": "passed"
             },
             "line": 34,
             "name": "Eu clicar em sair serei direcionado para a pagina de login \"http://www.inmrobo.tk/accounts/login/\"",
