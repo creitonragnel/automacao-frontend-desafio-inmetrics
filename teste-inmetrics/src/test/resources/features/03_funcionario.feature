@@ -1,4 +1,4 @@
-Feature: Manter Funcionário
+Feature: Manter Funcionario
   Eu como administrador do sistema quero incluir, alterar e excluir funcionarios
 	
 	@regressivo
