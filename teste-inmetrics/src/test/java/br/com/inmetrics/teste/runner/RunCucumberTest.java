@@ -20,9 +20,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features",
+glue = {""}, 
 plugin = {"json: target/cucumber.json"},
-tags = {"@regressivo"},
-glue = {""}, monochrome = true, dryRun = false)
+monochrome = true, dryRun = false, tags = {"@regressivo"})
 public class RunCucumberTest {
 	@Rule
 	public static TestName testName = new TestName();
