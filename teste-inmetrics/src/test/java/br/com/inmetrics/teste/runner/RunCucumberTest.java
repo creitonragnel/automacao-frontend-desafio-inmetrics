@@ -21,7 +21,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features",
 glue = {""}, 
-plugin = {"json: target/cucumber.json"},
+plugin = {"html:target/cucumber-reports", "json: target/cucumber.json"},
 monochrome = true, dryRun = false)
 public class RunCucumberTest {
 	@Rule
