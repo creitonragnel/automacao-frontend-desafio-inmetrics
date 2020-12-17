@@ -1,7 +1,7 @@
-package steps;
+package br.com.inmetrics.teste.support;
 
+import br.com.inmetrics.teste.pages.HomePage;
 import cucumber.api.java.en.Given;
-import pages.HomePage;
 
 public class HomeSteps {
 	

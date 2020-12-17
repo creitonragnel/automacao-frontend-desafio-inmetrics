@@ -1,7 +1,7 @@
-package pages;
+package br.com.inmetrics.teste.pages;
 
-import core.BasePage;
-import core.DriverFactory;
+import br.com.inmetrics.teste.core.BasePage;
+import br.com.inmetrics.teste.core.DriverFactory;
 
 public class HomePage extends BasePage {
 	public void acessarTelaInicial(){

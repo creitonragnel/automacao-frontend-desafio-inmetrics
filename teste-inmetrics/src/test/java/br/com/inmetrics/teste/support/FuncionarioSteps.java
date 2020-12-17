@@ -1,14 +1,14 @@
-package steps;
+package br.com.inmetrics.teste.support;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
-import pages.FuncionarioPage;
-import pages.HomePage;
-import pages.LoginPage;
 import cucumber.api.java.en.Then;
 
 import org.junit.Assert;
 
+import br.com.inmetrics.teste.pages.FuncionarioPage;
+import br.com.inmetrics.teste.pages.HomePage;
+import br.com.inmetrics.teste.pages.LoginPage;
 import cucumber.api.java.en.And;
 
 public class FuncionarioSteps {

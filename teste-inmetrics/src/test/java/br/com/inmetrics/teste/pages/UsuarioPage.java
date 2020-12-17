@@ -1,9 +1,9 @@
-package pages;
+package br.com.inmetrics.teste.pages;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import core.BasePage;
+import br.com.inmetrics.teste.core.BasePage;
 
 public class UsuarioPage extends BasePage {
 	Date dataHoraAtual = new Date();
@@ -12,9 +12,6 @@ public class UsuarioPage extends BasePage {
 	}
 	
 	public void informarUsuario(String usuario){
-		//LocalDateTime agora = LocalDateTime.now();
-				//cadastroUsuario.informarUsuario(usuario + agora);
-				
 		String data_atual = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(dataHoraAtual);
 		escreverByName("username", usuario + "_" + data_atual);
 	}

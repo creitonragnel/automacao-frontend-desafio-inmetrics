@@ -1,6 +1,6 @@
-package pages;
+package br.com.inmetrics.teste.pages;
 
-import core.BasePage;
+import br.com.inmetrics.teste.core.BasePage;
 
 public class LoginPage extends BasePage {
 	public void informarUsuario(String usuario){

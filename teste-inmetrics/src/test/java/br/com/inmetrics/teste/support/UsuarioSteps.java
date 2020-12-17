@@ -1,11 +1,11 @@
-package steps;
+package br.com.inmetrics.teste.support;
 
 import org.junit.Assert;
 
+import br.com.inmetrics.teste.pages.UsuarioPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pages.UsuarioPage;
 
 public class UsuarioSteps {
 	

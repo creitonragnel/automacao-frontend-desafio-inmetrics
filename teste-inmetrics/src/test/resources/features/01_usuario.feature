@@ -1,6 +1,7 @@
 Feature: Cadastrar Usuario
   Eu como usuário do sistema quero me cadastrar para utiliza-lo
 
+	@smoke @regressivo
   Scenario: 01 Cadastrar usuario com sucesso
     Given Eu estou na home do sistema
     And Eu clicar no link cadastre-se
@@ -9,7 +10,8 @@ Feature: Cadastrar Usuario
     And Eu informo a confirmacao da senha "12345"
     And Eu clico no botao cadastrar
     Then Eu serei direcionado para a pagina de login "http://www.inmrobo.tk/accounts/login/"
-    
+  
+  @smoke @regressivo
   Scenario: 02 Cadastrar usuario sem sucesso - Informar usuario ja cadastrado
     Given Eu estou na home do sistema
     And Eu clicar no link cadastre-se

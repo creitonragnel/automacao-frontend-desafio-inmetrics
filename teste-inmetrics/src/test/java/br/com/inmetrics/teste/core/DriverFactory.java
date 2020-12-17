@@ -1,4 +1,4 @@
-package core;
+package br.com.inmetrics.teste.core;
 
 import java.util.concurrent.TimeUnit;
 
